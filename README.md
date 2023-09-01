@@ -6,6 +6,8 @@ earlier game called 1024, which
 was inspired by the more challenging
 sliding tile game Threes.
 
+I added the code I used to complete this project to a forked version of the original assignment. Most of the code I added to the project is in model.py.
+
 ## Game Play
 
 The game is played on a 4x4 grid. Initially tiles containing the value 2 are placed randomly on the grid.  In each turn, the player may move all the tiles left, right, up, or down.  Tiles will slide as far as possible in the indicated direction, stopping when they reach an edge of the grid or when they meet a tile with a different value.  If a tile meets another tile with the same value, it absorbs the other tile (adding the value of the other tile to its own, thereby doubling), and *continues moving*.
